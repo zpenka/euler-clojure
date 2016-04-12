@@ -7,7 +7,7 @@
 ; Find the sum of all the multiples of 3 or 5 below 1000
 
 (defn euler-1
-  "Algorithm to solve problem 1"
+  "Sums first x numbers divisible by 3 and 5"
   [x]
   (reduce
     +

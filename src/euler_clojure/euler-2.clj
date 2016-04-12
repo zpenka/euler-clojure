@@ -11,7 +11,7 @@
             (map + fib (rest fib))))
 
 (defn euler-2
-  "Algorithm to solve second euler problem"
+  "Sums x even fibonacci numbers"
   [x]
   (reduce
     +
